@@ -14,9 +14,9 @@ public class CalculatorTest {
     }
 
     @Test
-    void testAddition() {
-        assertEquals(5, calculatrice.addition(2, 3));
-        assertEquals(0, calculatrice.addition(-1, 1));
+    void testNouvelleFonction() {
+        assertEquals(10, calculatrice.multiplication(2, 5));
+        assertEquals(-10, calculatrice.multiplication(2, -5));
     }
 
     @Test
